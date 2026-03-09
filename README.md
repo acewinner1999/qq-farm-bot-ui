@@ -149,6 +149,15 @@ environment:
 
 修改后执行 `docker compose up -d` 重启生效。
 
+### Docker 一键部署
+
+##如果你什么都不会但是有一台linux服务器那么你可以运行以下脚本全自动安装
+
+```bash
+curl -L https://raw.githubusercontent.com/Penty-d/qq-farm-bot-ui/refs/heads/main/qq-farm-docker-one-key.sh -o qq-farm-docker-one-key.sh && chmod +x qq-farm-docker-one-key.sh && ./qq-farm-docker-one-key.sh
+```
+
+
 ---
 
 ## 二进制发布版（无需 Node.js）
